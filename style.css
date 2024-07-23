@@ -175,11 +175,11 @@ section {
 }
 
 .background {
-    background-image: url(images/profile-background.jpeg);
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: scroll;
     background-size:100%;
+    background-color: #121212;
 }
 
 .section__pic-container,
@@ -203,11 +203,13 @@ section {
 
 .section__text__p1 {
     text-align: center;
+    color: #717171;
 }
 
 .title {
     font-size: 3rem;
     text-align: center;
+    color: #8b8b8b;
 }
 
 #socials-container {
@@ -261,21 +263,14 @@ section {
 }
 
 .btn-color-1,
-.btn-color-2:hover {
-    background: rgb(53, 53, 53);
+.btn-color-2 {
+    background: #3f3f3f;
     color: white;
 }
 
-.btn-color-1:hover {
-    background: rgb(0, 0, 0);
-    border: white 0.1rem solid;
-}
-
-.btn-color-2 {
-    background: none;
-}
-
+.btn-color-1:hover,
 .btn-color-2:hover {
+    background: black;
     border: white 0.1rem solid;
 }
 
