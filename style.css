@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #121212;
 }
 
 html {
@@ -16,7 +17,7 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color:#717171;
 }
 
 /* Transition */
@@ -40,6 +41,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 17vh;
+    
 }
 
 .nav-links {
@@ -50,7 +52,7 @@ nav {
     color: #8b8b8b;
 }
 
-a {
+a, h3, h5 {
     color: #8b8b8b;
     /* Remove underline */
     text-decoration: none;
@@ -161,6 +163,7 @@ section {
     padding-top: 4vh;
     height: 96vh;
     margin: 0 10rem;
+    background-color: #121212;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -282,6 +285,7 @@ section {
 
 #about {
     position: relative;
+    background-color: #121212;
 }
 
 .about-containers {
@@ -321,7 +325,7 @@ section {
     padding: 1.5rem;
     /* Fill the line */
     flex: 1;
-    background: white;
+    background-color: #282828;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
