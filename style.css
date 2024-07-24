@@ -32,6 +32,7 @@ nav,
 .nav-links {
     /* display on the same line */
     display: flex;
+    background-color: #121212;
 }
 
 nav {
@@ -46,10 +47,11 @@ nav {
     /* remove dots */
     list-style: none;
     font-size: 1.5rem;
+    color: #8b8b8b;
 }
 
 a {
-    color: black;
+    color: #8b8b8b;
     /* Remove underline */
     text-decoration: none;
     text-decoration-color: white;
@@ -64,6 +66,7 @@ a:hover {
 
 .logo {
     font-size: 2rem;
+    color: #8b8b8b;
 }
 
 .logo:hover {
@@ -76,6 +79,7 @@ a:hover {
 #hamburger-nav {
     /* Initially not displayed */
     display: none;
+    color: #3f3f3f;
 }
 
 .hamburger-menu {
