@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Orchestra</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="mediaqueries.css">
+   <style>
+      ul li {
+         color: #717171;
+      }
+      ul {
+         padding-left: 2rem;
+      }
+   </style>
+</head>
+
+<body>
+   <nav id="desktop-nav">
+      <div class="logo">Alexander Wu</div>
+      <div>
+         <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+         </ul>
+      </div>
+   </nav>
+   <nav id="hamburger-nav">
+      <div class="logo">Alexander Wu</div>
+      <div class="hamburger-menu">
+         <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <ul class="menu-links">
+            <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+         </ul>
+      </div>
+   </nav>
+   <div class="background">
+      <section id="orchestra">
+         <h1 class="title">Orchestra</h1>
+         <div class="about-details-container">
+            <div class="about-text-container text-container">
+               <p style="margin-top: 2rem; margin-bottom: 1rem">
+                  I am passionate about music and perform as a violinist in orchestras. I play 1st violin with:
+               </p>
+               <ul>
+                  <li>New York Session Symphony</li>
+                  <li>Litha Symphony Orchestra</li>
+                  <li>New Amsterdam Symphony Orchestra</li>
+               </ul>
+               <p style="margin-top: 2.5rem; font-weight: bold;">Upcoming Concerts:</p>
+               <ul style="margin-left: 1.5rem;">
+                  <li style="margin-bottom: 0.5rem;">
+                     <strong>Orchestra:</strong> Litha Symphony Orchestra collaboration with the Brooklyn Conservatory Chorale<br>
+                     <strong>Date:</strong> 1/31/2026<br>
+                     <strong>Program:</strong>
+                     <ul style="padding-left: 1.5rem;">
+                        <li>Orff - Carmina Burana</li>
+                        <li>Chengzong - Yellow River Piano Concerto</li>
+                     </ul>
+                  </li>
+                  <li style="margin-bottom: 0.5rem;">
+                     <strong>Orchestra:</strong> New Amsterdam Symphony Orchestra<br>
+                     <strong>Date:</strong> 2/13/2026<br>
+                     <strong>Program:</strong>
+                     <ul style="padding-left: 1.5rem;">
+                        <li>Sibelius - Finlandia Op. 26</li>
+                        <li>Rachmaninoff - Piano Concerto No. 2 in C minor, Op. 18</li>
+                        <li>Dvořák - Symphony No. 7 in D minor, Op. 70</li>
+                     </ul>
+                  </li>
+                  <li style="margin-bottom: 0.5rem;">
+                     <strong>Orchestra:</strong> New York Session Symphony<br>
+                     <strong>Date:</strong> 3/07/2026<br>
+                     <strong>Program:</strong>
+                     <ul style="padding-left: 1.5rem;">
+                        <li>Mendelssohn - Overture to A Midsummer Night's Dream, Op. 21</li>
+                        <li>Elgar - Cello Concerto in E Minor, Op. 85</li>
+                        <li>Tchaikovsky - Symphony No. 5 in E minor, Op. 64</li>
+                     </ul>
+                  </li>
+                  <li style="margin-bottom: 0.5rem;">
+                     <strong>Orchestra:</strong> New Amsterdam Symphony Orchestra<br>
+                     <strong>Date:</strong> 4/17/2026<br>
+                     <strong>Program:</strong>
+                     <ul style="padding-left: 1.5rem;">
+                        <li>Mayer - Faust Overture, Op. 46</li>
+                        <li>Beethoven - Piano Concerto No. 2 in B-flat Major, Op. 19</li>
+                        <li>Sibelius - Symphony No. 5 in E-flat Major, Op. 82</li>
+                     </ul>
+                  </li>
+                  <li style="margin-bottom: 0.5rem;">
+                     <strong>Orchestra:</strong> New York Session Symphony<br>
+                     <strong>Date:</strong> 5/09/2026<br>
+                     <strong>Program:</strong>
+                     <ul style="padding-left: 1.5rem;">
+                        <li>Barber - Adagio for Strings, Op. 11</li>
+                        <li>Williams, Grace - Fantasia on Welsh Nursery Tunes</li>
+                        <li>Schumann, Clara - Piano Concerto, Op. 7</li>
+                        <li>Brahms - Symphony No. 3 in F major, Op. 90</li>
+                     </ul>
+                  </li>
+                  <li style="margin-bottom: 0.5rem;">
+                     <strong>Orchestra:</strong> Litha Symphony Orchestra<br>
+                     <strong>Date:</strong> 6/27/2026<br>
+                     <strong>Program:</strong>
+                     <ul style="padding-left: 1.5rem;">
+                        <li>Williams - Liberty Fanfare</li>
+                        <li>Newbold - American Landscapes</li>
+                        <li>Grever - Júrame (for orchestra)</li>
+                        <li>Bennett - Serenade for Small Orchestra</li>
+                        <li>Dvořák - Symphony No. 9 "From the New World"</li>
+                     </ul>
+                  </li>
+                  <li style="margin-bottom: 0.5rem;">
+                     <strong>Orchestra:</strong> Litha Symphony Orchestra<br>
+                     <strong>Date:</strong> 8/29/2026<br>
+                     <strong>Program:</strong>
+                     <ul style="padding-left: 1.5rem;">
+                        <li>Barber - Violin Concerto, Op. 14</li>
+                        <li>Copland - Symphony No. 3 </li>
+                     </ul>
+                  </li>
+               </ul>
+               <p style="margin-top: 1.5rem; font-weight: bold;">Major Orchestral Pieces Performed:</p>
+               <ul style="margin-left: 1.5rem;">
+                  <li>
+                     <strong>Beethoven</strong>
+                     <ul>
+                        <li>Symphony No. 2 in D major, Op. 36</li>
+                        <li>Symphony No. 3 in E-flat major, Op. 55 “Eroica”</li>
+                        <li>Symphony No. 5 in C minor, Op. 67</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Brahms</strong>
+                     <ul>
+                        <li>Symphony No. 1 in C minor, Op. 68</li>
+                        <li>Symphony No. 2 in D major, Op. 73</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Britten</strong>
+                     <ul>
+                        <li>Four Sea Interludes from Peter Grimes, Op. 33a</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>DeBussy</strong>
+                     <ul>
+                        <li>La Mer — Trois esquisses symphoniques</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Farrenc</strong>
+                     <ul>
+                        <li>Symphony No. 2 in D major, Op. 35</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Gade</strong>
+                     <ul>
+                        <li>Symphony No. 4 in B-flat major, Op. 20</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Mahler</strong>
+                     <ul>
+                        <li>Symphony No. 4 in G major</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Mendelssohn</strong>
+                     <ul>
+                        <li>Symphony No. 4 in A major, Op. 90 “Italian”</li>
+                        <li>Symphony No. 5 in D minor, Op. 107 “Reformation”</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Schumann</strong>
+                     <ul>
+                        <li>Symphony No. 3 in E-flat Major, Op. 97 "Rhenish"</li>
+                     </ul>
+                  </li>
+                  <li>
+                     <strong>Smetana</strong>
+                     <ul>
+                        <li>Má vlast: No. 2 “Vltava” (“The Moldau”)</li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+   </div>
+   <footer>
+      <nav>
+         <div class="nav-links-container">
+            <ul class="nav-links">
+               <li><a href="index.html#about">About</a></li>
+               <li><a href="index.html#experience">Experience</a></li>
+               <li><a href="index.html#projects">Projects</a></li>
+               <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
